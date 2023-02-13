@@ -19,7 +19,7 @@ struct OnboardingView: View {
     
     let transition: AnyTransition = .asymmetric(
         insertion: .move(edge: .trailing),
-        removal: .move(edge: .leading)
+        removal: .move(edge: .bottom)
     )
     
     var body: some View {
